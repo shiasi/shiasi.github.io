@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Alireza Shiasi'
 theme = 'anatole'
 
+
+publishDir = "docs"
+
 [params]
     profilePicture = "images/Alireza-Shiasi-square-ai.png"
     doNotLoadAnimations = true # Animations are loaded by default
