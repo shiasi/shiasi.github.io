@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/vazirmatn.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Vazirmatn', Arial, sans-serif; /* برای فارسی */
+  letter-spacing: 0; 
+  letter-spacing: normal; 
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Vazirmatn', Arial, sans-serif; /* برای انگلیسی */
+  letter-spacing: 0; 
+  letter-spacing: normal
+}

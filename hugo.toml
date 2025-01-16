@@ -1,0 +1,77 @@
+baseURL = 'https://alirezashiasi.com/'
+languageCode = 'en-us'
+title = 'Alireza Shiasi'
+theme = 'anatole'
+
+[params]
+    profilePicture = "images/Alireza-Shiasi-square-ai.png"
+    doNotLoadAnimations = true # Animations are loaded by default
+    contentratio = 0.7
+    readMore = true
+    mainSections = []
+
+    # Social links
+    [[params.socialIcons]]
+    icon = "fa-brands fa-linkedin"
+    title = "Linkedin"
+    url = "https://linkedin.com/in/alirezashiasi"
+
+    [[params.socialIcons]]
+    icon = "fa-brands fa-instagram"
+    title = "instagram"
+    url = "https://www.instagram.com/alirezashyasi/"
+
+    [[params.socialIcons]]
+    icon = "fa-brands fa-github"
+    title = "GitHub"
+    url = "https://github.com/shiasi"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+
+
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = 'content/english'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    weight = 0
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Website 🔗"
+        identifier = "website"
+        weight = 999
+        url = "https://shiasi.com"
+    [languages.en.params]
+      title = 'Alireza Shiasi'
+      author = 'Alireza Shiasi'
+      description = 'Business Researcher and Developer with a Sustainability Twist | Construction Management Strategist | Enthusiast of Open-Source Technologies (Linux, BSD, etc.) | Writer and Occasional Poet'
+
+  [languages.fa]
+    contentDir = 'content/persian'
+    disabled = false
+    languageCode = 'fa-IR'
+    languageDirection = 'rtl'
+    languageName = 'پارسی'
+    weight = 1
+    [languages.fa.menu]
+      [[languages.fa.menu.main]]
+        name = "وبسایت 🔗 "
+        identifier = "website"
+        weight = 999
+        url = "https://shiasi.com"
+    [languages.fa.params]
+      title = 'علیرضا شیاسی'
+      author = 'علیرضا شیاسی'
+      description = 'پژوهشگر و توسعه‌دهنده کسب‌وکار با طعم پایداری | استراتژیست مدیریت ساخت | علاقه‌مند به فناوری‌های متن‌باز (لینوکس، بی‌اس‌دی و ...) | نویسنده و گاهی شاعر'
+
+
